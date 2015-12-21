@@ -102,6 +102,23 @@ func (d *Database) create(table string, fields []string, values []sql.NullString
 	return lastId
 }
 
+func (d *Database) delete(table string, identifier int64) bool {
+	var stmt *sql.Stmt
+	cmd := fmt.Sprintf("delete from %s where id=%d", table, identifier)
+	fmt.Printf(cmd)
+	stmt, d.err = d.context.Prepare(cmd)
+	if d.err != nil {
+		log.Fatal(d.err)
+		return false
+	}
+	_, d.err = stmt.Exec()
+	if d.err != nil {
+		log.Fatal(d.err)
+		return false
+	}
+	return true
+}
+
 func (d *Database) close() bool {
 	d.err = d.context.Close()
 	if d.err != nil {

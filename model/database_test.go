@@ -22,6 +22,10 @@ func (model *TestModel) create(d *Database) bool {
 	return (model.id != 0)
 }
 
+func (model *TestModel) delete(d *Database) bool {
+	return d.delete("clusters", model.id)
+}
+
 func TestDatabaseOpen(t *testing.T) {
 	var sut Database = Database{}
 	var iterator ListIterator
@@ -54,6 +58,7 @@ func TestDatabaseOpen(t *testing.T) {
 				So(iterator.close(), ShouldEqual, true)
 			})
 		})
+		So(testmodel.delete(&sut), ShouldEqual, true)
 	})
 	Convey("The close should succeed", t, func() {
 		So(sut.close(), ShouldEqual, true)
