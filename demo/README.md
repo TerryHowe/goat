@@ -1,20 +1,16 @@
 Functional Demo
 ===============
-This demo compares looping over a set of data rather
-than manually calling a function for each. I would
-guess this is a comparison of functional programming
-vs structured programming.
+This demo compares looping over a set of data rather than manually calling a function for each. I would
+guess this is a comparison of functional programming vs structured programming.
 
-In my opinion there are two disadvantages to looping
-over a set of data:
+In my opinion there are two disadvantages the looping pattern:
 1. It is more complex
 2. It is harder to debug
 
 Loop
 ====
-The loop example is 11 lines of code, you have an
-array and loop. When it fails, you often cannot
-tell which item failed:
+The [loop example](https://github.com/TerryHowe/goat/blob/master/demo/main.go#L20:L32) is 11 lines of code, you have an
+array and loop. When it fails, you often cannot tell which item failed:
 
     - Loop Case ----------------------------
     panic: Unexpected boom!
@@ -29,14 +25,12 @@ tell which item failed:
     
     Process finished with exit code 2
 
-Given that stack trace, you have no idea which item
-failed.
+Given that stack trace, you have no idea which item failed.
 
 Functional
 ==========
-The functional example is 6 lines of code, just
-function calls. You can tell easily looking at it
-which item failed;
+The [functional example](https://github.com/TerryHowe/goat/blob/master/demo/main.go#L34:L41) is 6 lines of code, just
+function calls. Looking at the stack trace, you can tell which item failed:
 
     - Functional Case ----------------------
     panic: Unexpected boom!
@@ -51,5 +45,4 @@ which item failed;
     
     Process finished with exit code 2
 
-Looking at the stack trace, you can easily see that
-it fails on line 38 for "three".
+Looking at the stack trace, you can easily see that it fails on line 38 for "three".
