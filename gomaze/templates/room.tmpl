@@ -1,0 +1,52 @@
+
+<html>
+<head></head>
+<body>
+<script>
+function goLeft() {
+    window.location.href = "/maze/{{.Left}}";
+}
+function goBackward() {
+	{% if backward %}
+    window.location.href = "/maze/{{.Backward}}";
+	{% endif %}
+}
+function goRight() {
+    window.location.href = "/maze/{{.Right}}";
+}
+function goForward() {
+	{% if forward %}
+    window.location.href = "/maze/{{.Forward}}";
+	{% endif %}
+}
+
+function keyDown(event) {
+    switch (event.key) {
+    case 'w':
+        goForward();
+        break;
+    case 'a':
+        goLeft();
+        break;
+    case 's':
+        goBackward();
+        break;
+    case 'd':
+        goRight();
+        break;
+    }
+}
+addEventListener("keydown", keyDown);
+</script>
+
+<h1>Looking {{.DirectionLong}} from {{.X}}, {{.Y}}.</h1>
+
+<pre>
+{{.MazeView}}
+</pre>
+<b>w:</b> forward<br/>
+<b>a:</b> left<br/>
+<b>d:</b> right<br/>
+<b>s:</b> backward<br/>
+</body>
+</html>

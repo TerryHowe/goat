@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06d12f79-a8ff-4214-bf96-8cf8a7d644dc" name="Default Changelist" comment="" />
+    <list default="true" id="06d12f79-a8ff-4214-bf96-8cf8a7d644dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,21 +83,25 @@
       <screen x="1792" y="23" width="3840" height="2137" />
     </state>
     <state x="3668" y="385" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1017/1792.23.3840.2137@1792.23.3840.2137" timestamp="1606394143602" />
-    <state width="1358" height="326" key="GridCell.Tab.0.bottom" timestamp="1606410183756">
-      <screen x="1792" y="23" width="3840" height="2137" />
+    <state width="1358" height="256" key="GridCell.Tab.0.bottom" timestamp="1606587284252">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state width="1358" height="256" key="GridCell.Tab.0.bottom/0.23.1792.1017/1792.23.3840.2137@0.23.1792.1017" timestamp="1606587284252" />
     <state width="1358" height="326" key="GridCell.Tab.0.bottom/0.23.1792.1017/1792.23.3840.2137@1792.23.3840.2137" timestamp="1606410183756" />
-    <state width="1358" height="326" key="GridCell.Tab.0.center" timestamp="1606410183755">
-      <screen x="1792" y="23" width="3840" height="2137" />
+    <state width="1358" height="256" key="GridCell.Tab.0.center" timestamp="1606587284252">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state width="1358" height="256" key="GridCell.Tab.0.center/0.23.1792.1017/1792.23.3840.2137@0.23.1792.1017" timestamp="1606587284252" />
     <state width="1358" height="326" key="GridCell.Tab.0.center/0.23.1792.1017/1792.23.3840.2137@1792.23.3840.2137" timestamp="1606410183755" />
-    <state width="1358" height="326" key="GridCell.Tab.0.left" timestamp="1606410183755">
-      <screen x="1792" y="23" width="3840" height="2137" />
+    <state width="1358" height="256" key="GridCell.Tab.0.left" timestamp="1606587284251">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state width="1358" height="256" key="GridCell.Tab.0.left/0.23.1792.1017/1792.23.3840.2137@0.23.1792.1017" timestamp="1606587284251" />
     <state width="1358" height="326" key="GridCell.Tab.0.left/0.23.1792.1017/1792.23.3840.2137@1792.23.3840.2137" timestamp="1606410183755" />
-    <state width="1358" height="326" key="GridCell.Tab.0.right" timestamp="1606410183755">
-      <screen x="1792" y="23" width="3840" height="2137" />
+    <state width="1358" height="256" key="GridCell.Tab.0.right" timestamp="1606587284252">
+      <screen x="0" y="23" width="1792" height="1017" />
     </state>
+    <state width="1358" height="256" key="GridCell.Tab.0.right/0.23.1792.1017/1792.23.3840.2137@0.23.1792.1017" timestamp="1606587284252" />
     <state width="1358" height="326" key="GridCell.Tab.0.right/0.23.1792.1017/1792.23.3840.2137@1792.23.3840.2137" timestamp="1606410183755" />
     <state width="1358" height="326" key="GridCell.Tab.1.bottom" timestamp="1606410183757">
       <screen x="1792" y="23" width="3840" height="2137" />
@@ -116,6 +123,10 @@
       <screen x="1792" y="23" width="3840" height="2137" />
     </state>
     <state x="3714" y="363" key="SettingsEditor/0.23.1792.1017/1792.23.3840.2137@1792.23.3840.2137" timestamp="1606394033936" />
+    <state x="577" y="139" width="604" height="822" key="find.popup" timestamp="1606575194657">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="577" y="139" width="604" height="822" key="find.popup/0.23.1792.1017/1792.23.3840.2137@0.23.1792.1017" timestamp="1606575194657" />
     <state x="4124" y="419" key="search.everywhere.popup" timestamp="1606402105968">
       <screen x="1792" y="23" width="3840" height="2137" />
     </state>
